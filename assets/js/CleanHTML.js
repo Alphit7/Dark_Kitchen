@@ -1,6 +1,6 @@
 
 export function cleanHTML() {
-  main.querySelectorAll("section").forEach((element) => {
+  document.querySelector("main").querySelectorAll("section").forEach((element) => {
     element.remove();
   });
 }

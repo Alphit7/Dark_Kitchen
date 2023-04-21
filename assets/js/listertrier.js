@@ -1,3 +1,9 @@
+import { fullMenu } from "./objetMenu.js";
+import { ajoutPanier } from "./Panier.js";
+import { cleanHTML } from "./CleanHTML.js";
+import { affichageHtml } from "./affichageHTML.js";
+import { filterMenu } from "./Filter.js";
+import { listerPlat } from "./listerPlat.js";
 export function listertrier() {
     listTri.addEventListener("click", (e) => {
       switch (e.target.classList[0]) {
