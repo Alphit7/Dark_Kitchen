@@ -55,27 +55,16 @@ main.dark-mode {
   background-color: #333333;
   color: #ffffff;
 }
-//filter
 .listTri {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
+  background-color: #1195a1;
   li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: left;
-    border: solid 3px white;
-    border-radius: 10px 10px 0 0;
-    background-color: #21ecf3;
-    box-shadow: 0 -3px 3px 3px rgba(0, 0, 0, 0.185);
-    padding: 5px;
-    font-size: 1.5em;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-transform: capitalize;
     cursor: pointer;
     float: left;
+    border: 0.5px solid lightgray;
     padding: 5px;
   }
 }

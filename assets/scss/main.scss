@@ -6,10 +6,5 @@
 @import './utils/variables';
 @import './utils/mixins';
 @import './base/base.scss';
-@import 'components/buttons';
-@import './base/base.scss' 
-;
-
-header {
-    background-image: url("/images/banquet.jpeg");
-}
+@import './components/buttons';
+@import './base/base.scss';

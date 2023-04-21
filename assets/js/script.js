@@ -13,8 +13,6 @@ checkout.addEventListener("click", () => {
   displayedcart();
 });
 
-//#endregion
-
 const listTri = document.querySelector(".listTri");
 for (const iterator of listTri.children) {
   console.log(iterator);
